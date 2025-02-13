@@ -1,16 +1,31 @@
 {
-  "name": "vite-daisyui-template",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+  "name": "zylo-ui",
+  "version": "1.0.0",
+  "description": "A modular UI library based on TailwindCSS and DaisyUI.",
+  "main": "dist/zylo-ui.umd.js",
+  "module": "dist/zylo-ui.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "ui-library",
+    "daisyui",
+    "react-components"
+  ],
+  "author": "André",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/zylo-ui.git"
   },
-  "dependencies": {
+  "scripts": {
+    "build": "vite build && npx tsc"
+  },
+  "peerDependencies": {
     "@tailwindcss/vite": "^4.0.6",
+    "daisyui": "5.0.0-beta.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.6"
@@ -20,12 +35,11 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
-    "daisyui": "5.0.0-beta.7",
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
-    "typescript": "~5.7.2",
+    "typescript": "~5.7.3",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0"
   }

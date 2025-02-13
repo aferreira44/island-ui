@@ -23,7 +23,7 @@ IslandUI is a **lightweight, ready-to-use UI library** built with **DaisyUI and 
 You can install IslandUI via **npm** or **yarn**:
 
 ```sh
-npm install island-ui
+npm install zylo-ui
 # or
-yarn add island-ui
+yarn add zylo-ui
 ```
