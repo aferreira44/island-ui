@@ -1,6 +1,6 @@
 {
   "name": "zylo-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modular UI library based on TailwindCSS and DaisyUI.",
   "main": "dist/zylo-ui.umd.js",
   "module": "dist/zylo-ui.es.js",
